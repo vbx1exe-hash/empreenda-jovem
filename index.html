@@ -1,0 +1,133 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Empreenda Jovem · Vitor Emanuel</title><meta name="description" content="Aprenda a empreender desde cedo: como encontrar e validar uma ideia, como funciona o mercado, custo, preço e lucro, marketing, vendas, gestão e a parte legal para quem ainda está no ensino médio."><meta name="theme-color" content="#111110">
+<style>
+@font-face{font-family:Archivo;font-style:normal;font-display:swap;font-weight:100 900;font-stretch:62% 125%;src:url(fonts/archivo-latin-standard-normal.woff2) format('woff2-variations')}
+@font-face{font-family:Archivo;font-style:normal;font-display:swap;font-weight:100 900;font-stretch:62% 125%;src:url(fonts/archivo-latin-ext-standard-normal.woff2) format('woff2-variations');unicode-range:U+0100-024F}
+:root{--bg:#111110;--txt:#f4f1ec;--mut:#b3aea6;--dim:#a19c94;--acc:#f26b1d;--acc-2:#ff8a47;--acc-soft:rgba(242,107,29,.14);
+  --glass:rgba(28,27,26,.46);--glass-brd:rgba(255,255,255,.09);--glass-edge:rgba(255,255,255,.2);--glass-shine:rgba(255,255,255,.09);--ease:cubic-bezier(.2,.75,.2,1)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:radial-gradient(1100px 700px at 88% -10%,rgba(242,107,29,.22),transparent 60%),radial-gradient(900px 600px at -10% 110%,rgba(242,107,29,.12),transparent 60%),var(--bg);background-attachment:fixed;color:var(--txt);font-family:Archivo,system-ui,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}img{max-width:100%;display:block}
+:focus-visible{outline:3px solid #ffb37a;outline-offset:3px;border-radius:8px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--acc);font-weight:700;display:inline-flex;align-items:center;gap:10px}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--acc);border-radius:2px}
+.h{font-stretch:125%;font-weight:900;text-transform:uppercase;letter-spacing:-.02em;line-height:.95;margin:0}
+.h2{font-size:clamp(30px,5.5vw,58px)}
+.tag{background:linear-gradient(100deg,#f26b1d 0%,#ff8a3d 18%,#d9480b 38%,#f26b1d 55%,#ff9a52 72%,#e85a12 88%,#f26b1d 100%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:gradTxt 5s linear infinite}
+@keyframes gradTxt{to{background-position:-220% 50%}}
+.lead{color:var(--mut);font-size:clamp(17px,2vw,20px);margin:0}
+.glass{position:relative;background:linear-gradient(180deg,var(--glass-shine) 0%,rgba(255,255,255,0) 42%),var(--glass);-webkit-backdrop-filter:blur(22px) saturate(180%);backdrop-filter:blur(22px) saturate(180%);border:1px solid var(--glass-brd);box-shadow:inset 0 1px 0 var(--glass-edge),0 18px 50px rgba(0,0,0,.35);border-radius:22px}
+.btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:999px;padding:15px 26px;font:800 15px Archivo,sans-serif;text-decoration:none;cursor:pointer;transition:transform .25s var(--ease),box-shadow .25s,background .2s;white-space:nowrap;color:var(--txt)}
+.btn svg{width:18px;height:18px}
+.btn.pri{background:linear-gradient(100deg,#f26b1d,#ff8a3d 22%,#e2530f 45%,#f26b1d 60%,#ff9a52 80%,#f26b1d);background-size:240% 100%;animation:gradBtn 5s linear infinite;color:#141414;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 10px 30px rgba(242,107,29,.25)}
+@keyframes gradBtn{to{background-position:-240% 50%}}
+.btn.pri:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.btn.sec{background:linear-gradient(180deg,rgba(255,255,255,.1),rgba(255,255,255,.02));box-shadow:inset 0 1px 0 var(--glass-edge),inset 0 0 0 1px var(--glass-brd)}
+.btn.sec:hover{transform:translateY(-2px);background:rgba(242,107,29,.28)}
+.btn.sm{padding:10px 16px;font-size:14px}
+.preencher{display:inline-block;color:#141414;background:#ffc46b;font:800 12px Archivo,sans-serif;letter-spacing:.06em;padding:2px 8px;border-radius:6px;vertical-align:middle}
+.marca{font-stretch:125%;font-weight:900;font-size:20px;letter-spacing:-.02em;text-decoration:none}.marca b{color:var(--acc)}
+.topo{position:fixed;inset:12px 12px auto 12px;z-index:50;border-radius:20px;background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,0) 60%),rgba(22,21,20,.6);-webkit-backdrop-filter:blur(22px) saturate(180%);backdrop-filter:blur(22px) saturate(180%);box-shadow:inset 0 1px 0 var(--glass-edge),inset 0 0 0 1px var(--glass-brd),0 10px 30px rgba(0,0,0,.3)}
+.topo .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:62px}
+section{padding:96px 0}
+.sec-hd{display:flex;flex-direction:column;gap:14px;margin-bottom:40px}
+footer{border-top:1px solid var(--glass-brd);padding:32px 0;color:var(--dim);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:space-between}
+footer nav{display:flex;flex-wrap:wrap;gap:6px 18px}footer a{color:var(--mut)}
+@media (prefers-reduced-motion:reduce){.tag,.btn.pri{animation:none}html{scroll-behavior:auto}}
+
+.abertura{padding:150px 0 70px;text-align:center}
+.abertura .h{font-size:clamp(46px,9vw,110px);margin:16px 0 18px}
+.abertura .lead{max-width:760px;margin:0 auto}
+.video{margin:40px auto 0;max-width:900px;aspect-ratio:16/9;border-radius:22px;overflow:hidden;display:grid;place-items:center;text-align:center;color:var(--mut)}
+.video img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.35}
+.video .v-in{position:relative;display:grid;gap:10px;justify-items:center}
+.play{width:78px;height:78px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.14);box-shadow:inset 0 1px 0 rgba(255,255,255,.35)}
+.play svg{width:30px;height:30px;margin-left:4px}
+.preco{text-align:center}
+.preco .box{max-width:780px;margin:0 auto;padding:44px clamp(20px,5vw,56px)}
+.valor{display:flex;justify-content:center;align-items:baseline;gap:10px;margin:22px 0 6px}
+.valor .un{font-size:26px;font-weight:800;color:var(--mut)}
+.valor .n{font-stretch:125%;font-weight:900;font-size:clamp(70px,13vw,120px);line-height:1}
+.cond{color:var(--mut)}
+.benef{list-style:none;padding:0;margin:28px 0;display:grid;grid-template-columns:1fr 1fr;gap:12px 24px;text-align:left}
+.benef li{display:flex;gap:10px;align-items:flex-start}.benef svg{width:20px;height:20px;color:var(--acc);flex:none;margin-top:3px}
+.miudas{font-size:13px;color:var(--dim);margin-top:16px}.miudas a{color:var(--acc-2)}
+.nums{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:22px}
+.num{padding:20px 16px;text-align:center}.num b{display:block;font-stretch:125%;font-weight:900;font-size:36px;color:var(--acc);line-height:1}.num span{font-size:13px;color:var(--mut)}
+.mods{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.mod{padding:22px;display:flex;flex-direction:column;gap:8px;transition:transform .4s var(--ease),border-color .3s,background .3s}
+.mod:hover{transform:translateY(-5px);border-color:rgba(242,107,29,.55);background:linear-gradient(180deg,rgba(255,255,255,.1),rgba(255,255,255,0) 42%),rgba(242,107,29,.18)}
+.mod .ic{width:46px;height:46px;border-radius:13px;background:var(--acc-soft);color:var(--acc);display:grid;place-items:center}.mod .ic svg{width:24px;height:24px}
+.mod .nm{font-size:12px;font-weight:800;letter-spacing:.14em;color:var(--acc-2);text-transform:uppercase}
+.mod h3{margin:0;font-size:18px;line-height:1.25}.mod p{margin:0;color:var(--mut);font-size:14.5px}
+.passos{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.passo{padding:24px}.passo .n{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-stretch:125%;font-weight:900;color:#141414;background:linear-gradient(135deg,#ff9a52,#d9480b);margin-bottom:12px}
+.passo b{display:block}.passo span{color:var(--mut);font-size:15px}
+.garantia{display:flex;gap:26px;align-items:center;margin-top:18px;padding:28px}
+.selo{flex:none;width:120px;height:120px;border-radius:50%;display:grid;place-items:center;text-align:center;background:radial-gradient(circle,rgba(242,107,29,.3),rgba(242,107,29,.08));box-shadow:inset 0 0 0 2px rgba(242,107,29,.6),0 0 30px rgba(242,107,29,.25)}
+.selo b{display:block;font-stretch:125%;font-weight:900;font-size:40px;line-height:1;color:var(--acc)}.selo span{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.garantia h3{margin:0 0 6px;font-size:20px}.garantia p{margin:0;color:var(--mut)}
+details{padding:0 22px;border-radius:16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:18px 0;font-weight:700;display:flex;justify-content:space-between;gap:16px}summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--acc);font-size:24px;line-height:1;transition:transform .3s}details[open] summary::after{transform:rotate(45deg)}
+details p{margin:0 0 18px;color:var(--mut)}
+.final{text-align:center}.final .h{font-size:clamp(34px,6vw,64px);margin:14px 0}.final p{color:var(--mut);margin:0 0 26px}
+.barra-cel{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:60;display:none;align-items:center;justify-content:space-between;gap:12px;padding:10px 10px 10px 18px;border-radius:18px;transform:translateY(140%);transition:transform .35s var(--ease)}
+.barra-cel.on{transform:none}.barra-cel b{font-stretch:125%;font-weight:900;font-size:22px}.barra-cel small{color:var(--mut);display:block;font-size:12px}
+@media (max-width:900px){.nums{grid-template-columns:repeat(3,1fr)}.passos{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){section{padding:72px 0}.benef{grid-template-columns:1fr}.nums{grid-template-columns:1fr 1fr}.passos{grid-template-columns:1fr}.garantia{flex-direction:column;text-align:center}.barra-cel{display:flex}.topo .btn{padding:9px 14px;font-size:13px}}
+</style></head><body>
+<header class="topo"><div class="wrap"><a class="marca" href="#">vitoremanuel<b>.</b></a><a class="btn pri sm" href="#preco">Quero aprender</a></div></header>
+<main>
+<section class="abertura"><div class="wrap">
+  <span class="eyebrow">Novo curso</span>
+  <h1 class="h">Empreenda <span class="tag">Jovem</span></h1>
+  <p class="lead">Aprenda a empreender desde cedo: como encontrar e validar uma ideia, como funciona o mercado, custo, preço e lucro, marketing, vendas, gestão e a parte legal para quem ainda está no ensino médio.</p>
+  <div class="video glass"><img src="acesso-2967ccc7dc/videos/M1A1.jpg" alt=""><div class="v-in"><span class="play"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg></span><span>Vídeo de apresentação <span class="preencher">[PREENCHER]</span></span></div></div>
+</div></section>
+
+<section class="preco" id="preco"><div class="wrap"><div class="box glass">
+  <h2 class="h h2">Comece hoje o seu <span class="tag">primeiro negócio.</span></h2>
+  <p class="lead" style="margin-top:12px">Acesso a todos os módulos, apostilas em PDF e pedidos prontos para usar com IA, com 7 dias de garantia.</p>
+  <div class="valor"><span class="un">R$</span><span class="n">00</span></div>
+  <div class="cond">pagamento único</div>
+  <ul class="benef"><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>10 módulos</span></li><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>10 videoaulas</span></li><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>20 pedidos prontos para IA</span></li><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>20 tarefas práticas</span></li><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Apostila em PDF de cada módulo</span></li><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Acesso pela Cakto</span></li></ul>
+  <a class="btn pri" href="#preco">Quero aprender <svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  <p class="miudas">Pagamento seguro pela Cakto. <strong>7 dias de garantia</strong> com reembolso total. Ao comprar, você concorda com os <a href="legal/termos.html">Termos de Uso</a> e a <a href="legal/reembolso.html">Política de Reembolso</a>.</p>
+</div></div></section>
+
+<section id="conteudo"><div class="wrap">
+  <div class="sec-hd"><span class="eyebrow">Conteúdo do curso</span><h2 class="h h2">Tudo o que você <span class="tag">vai receber.</span></h2></div>
+  <div class="nums"><div class="num glass"><b>10</b><span>módulos</span></div><div class="num glass"><b>10</b><span>videoaulas</span></div><div class="num glass"><b>20</b><span>pedidos prontos para IA</span></div><div class="num glass"><b>20</b><span>tarefas práticas</span></div><div class="num glass"><b>12</b><span>apostilas em PDF</span></div><div class="num glass"><b>~24</b><span>min de vídeo</span></div></div>
+  <div class="mods"><article class="mod glass"><span class="ic"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></svg></span><span class="nm">Módulo 1</span><h3>Mentalidade empreendedora</h3><p>Ao final: você sabe o que é empreender de verdade, conhece os desafios de começar no ensino médio e tem um plano para conciliar escola e negócio.</p></article><article class="mod glass"><span class="ic"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></svg></span><span class="nm">Módulo 2</span><h3>Encontrando sua ideia</h3><p>Ao final: você escolheu uma ideia baseada em um problema real e testou se as pessoas pagariam, sem gastar quase nada.</p></article><article class="mod glass"><span class="ic"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l1.5-5h15L21 9M3 9h18v11H3zM9 20v-6h6v6"/></svg></span><span class="nm">Módulo 3</span><h3>Como funciona o mercado</h3><p>Ao final: você entende cliente, concorrência, oferta e demanda e tem o modelo do seu negócio desenhado em uma página.</p></article><article class="mod glass"><span class="ic"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M17 7.5c-.8-1.5-2.6-2.5-5-2.5-3 0-4.5 1.6-4.5 3.4C7.5 13 17 11 17 15.6c0 1.9-1.8 3.4-5 3.4-2.6 0-4.4-1-5.2-2.6"/></svg></span><span class="nm">Módulo 4</span><h3>Dinheiro do negócio</h3><p>Ao final: você sabe calcular custo, preço e lucro, controla o caixa em uma planilha e separa o dinheiro do negócio do seu dinheiro.</p></article><article class="mod glass"><span class="ic"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4zM15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg></span><span class="nm">Módulo 5</span><h3>Marketing e vendas</h3><p>Ao final: você tem uma marca simples, um plano de posts para as redes sociais e um roteiro de venda e atendimento.</p></article><article class="mod glass"><span class="ic"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M8 15l2 2 4-4"/></svg></span><span class="nm">Módulo 6</span><h3>Gestão do dia a dia</h3><p>Ao final: você tem metas claras, uma rotina semanal que cabe junto com a escola, um painel simples com os números do negócio e checklists para fazer tudo sempre bem feito.</p></article><article class="mod glass"><span class="ic"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17.5" cy="9" r="2.5"/><path d="M16 14.2a5 5 0 0 1 6 4.8"/></svg></span><span class="nm">Módulo 7</span><h3>Pessoas e parcerias</h3><p>Ao final: você sabe escolher sócios e parceiros, combinar regras por escrito, criar uma rede de contatos e apresentar sua ideia em 1 minuto.</p></article><article class="mod glass"><span class="ic"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M5 7h14M5 7l-3 7a3.5 3.5 0 0 0 6 0zM19 7l-3 7a3.5 3.5 0 0 0 6 0zM8 21h8"/></svg></span><span class="nm">Módulo 8</span><h3>Lei e formalização para jovens</h3><p>Ao final: você entende o que um menor de idade pode fazer, quando formalizar, o que é MEI, quais são os direitos do seu cliente e como se proteger de golpes.</p></article><article class="mod glass"><span class="ic"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M8 10l2 2-2 2M13 14h3"/></svg></span><span class="nm">Módulo 9</span><h3>Ferramentas e IA para empreender</h3><p>Ao final: você usa ferramentas gratuitas e a IA para criar artes, textos e planilhas, e tem uma loja no celular com catálogo e Pix.</p></article><article class="mod glass"><span class="ic"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></span><span class="nm">Módulo 10</span><h3>Seu plano e próximos passos</h3><p>Ao final: você tem um plano de 30 dias para o seu negócio, sabe lidar com erros e frustrações e sabe como continuar aprendendo.</p></article></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="sec-hd"><span class="eyebrow">Como cada aula funciona</span><h2 class="h h2">Aprenda fazendo, <span class="tag">em 4 passos.</span></h2></div>
+  <div class="passos"><div class="passo glass"><span class="n">1</span><b>Assista à videoaula do módulo</b><span>(2 a 4 minutos) para entender a ideia.</span></div><div class="passo glass"><span class="n">2</span><b>Leia a aula nesta apostila</b><span>com um caderno do lado.</span></div><div class="passo glass"><span class="n">3</span><b>Use o pedido pronto na IA</b><span>trocando o que está entre colchetes pelos seus dados.</span></div><div class="passo glass"><span class="n">4</span><b>Faça a tarefa de 15 minutos</b><span>e marque o checklist.</span></div></div>
+  <div class="garantia glass"><div class="selo"><div><b>7</b><span>dias</span></div></div><div><h3>Direito de arrependimento (7 dias)</h3><p>Você tem <strong>7 dias corridos</strong>, contados da compra, para desistir e receber <strong>100% do valor de volta</strong>, sem precisar explicar o motivo.</p></div></div>
+</div></section>
+
+<section><div class="wrap" style="max-width:860px">
+  <div class="sec-hd"><span class="eyebrow">Dúvidas</span><h2 class="h h2">Perguntas <span class="tag">frequentes.</span></h2></div>
+  <details class="glass"><summary>Preciso ter dinheiro para começar?</summary><p>Não. O curso ensina a validar ideias e a vender antes de investir, começando com pouco ou nenhum dinheiro.</p></details><details class="glass"><summary>Sou menor de idade, posso fazer o curso?</summary><p>Pode. O curso foi feito para estudantes do ensino médio e mostra como envolver seus responsáveis em tudo o que exige um adulto, como contratos e formalização.</p></details><details class="glass"><summary>Como recebo o acesso?</summary><p>O pagamento é feito na Cakto, com Pix ou cartão. Depois da confirmação, você recebe o acesso à área do aluno com as videoaulas e as apostilas em PDF.</p></details><details class="glass"><summary>E se eu não gostar?</summary><p>Você tem 7 dias corridos, contados da compra, para desistir e receber 100% do valor de volta, sem precisar explicar o motivo.</p></details>
+</div></section>
+
+<section class="final"><div class="wrap">
+  <span class="eyebrow">Sua vez</span>
+  <h2 class="h">Começar cedo é a maior vantagem <span class="tag">que você tem.</span></h2>
+  <p>Comece pelo Módulo 0 e coloque o seu primeiro negócio de pé, com método.</p>
+  <a class="btn pri" href="#preco">Quero aprender <svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© <span id="ano"></span> Vitor Emanuel. Empresa Inteligente, NuRec Company e Layer Studio são marcas de seus titulares.</span>
+<nav><a href="legal/privacidade.html">Política de Privacidade</a><a href="legal/termos.html">Termos de Uso</a><a href="legal/reembolso.html">Política de Reembolso</a></nav></div></footer>
+<div class="barra-cel glass" id="barraCel"><div><b>R$ 00</b><small>pagamento único</small></div><a class="btn pri sm" href="#preco">Quero aprender</a></div>
+<script>
+document.getElementById('ano').textContent=new Date().getFullYear();
+const bc=document.getElementById('barraCel'),pr=document.getElementById('preco');
+const vb=()=>bc.classList.toggle('on',pr.getBoundingClientRect().bottom<0);addEventListener('scroll',vb,{passive:true});vb();
+</script></body></html>
